@@ -1,0 +1,27 @@
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+.container{
+    display: grid;
+    height: 300px;
+    width:300px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    /* background-color: aqua; */
+    border:5px solid black;
+    gap:10px;
+}
+.cells{
+    background-color: red;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    color: white;
+    font-size:50px;
+}
